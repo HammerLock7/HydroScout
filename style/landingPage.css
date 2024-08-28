@@ -1,6 +1,7 @@
 html, body { 
     font-family: monospace;
     font-size: 20px;
+    background: ghostwhite;
   } 
 
   .dim{
@@ -17,12 +18,12 @@ html, body {
     }
 
 .container{
-    border: 1px solid darkblue;
+    border: 1px solid skyblue;
     height: 5cm;
     width: auto;
     font-size: 150px;
     align-items: center;
-    background: darkblue;
+    background: skyblue;
     color: ghostwhite;
     text-align: center;
 }
