@@ -3,6 +3,10 @@ html, body {
     font-size: 20px;
   } 
 
+  .dim{
+    color: gray;
+  }
+
     .center {
         display: flex;
         flex-direction: column;
@@ -48,4 +52,15 @@ input.form-control {
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.signIn{
+    border: 1px solid white;
+    height: 1cm;
+    width: 3cm;
+    background: white;
+    color: black;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 20px;
 }
