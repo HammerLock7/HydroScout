@@ -4,9 +4,12 @@ html, body {
   } 
 
     .center {
-        margin: 0 auto; /* Centers the block horizontally */
-        width: 50%; /* Adjust the width as needed */
-        text-align: center; /* Centers the text inside */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center; 
+        margin-bottom: 10px;
     }
 
 .container{
@@ -16,7 +19,7 @@ html, body {
     font-size: 150px;
     align-items: center;
     background: skyblue;
-    color: antiquewhite;
+    color: ghostwhite;
     text-align: center;
 }
 
@@ -25,6 +28,24 @@ input.form-control {
     max-width: 400px; /* Optional: set a maximum width */
     height: 40px; /* Increase height */
     font-size: 16px; /* Adjust the font size */
-    padding: 10px; /* Adjust padding for better spacing */
+    padding: 20px; /* Adjust padding for better spacing */
     box-sizing: border-box; /* Ensures padding doesn't affect the width */
+}
+
+.button{
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 1cm;
+    width: 8cm;
+    font-size: 25px;
+    background: rgb(189, 19, 87);
+    padding: 15px;
+    color: whitesmoke;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
