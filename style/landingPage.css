@@ -17,12 +17,12 @@ html, body {
     }
 
 .container{
-    border: 1px solid skyblue;
+    border: 1px solid darkblue;
     height: 5cm;
     width: auto;
     font-size: 150px;
     align-items: center;
-    background: skyblue;
+    background: darkblue;
     color: ghostwhite;
     text-align: center;
 }
