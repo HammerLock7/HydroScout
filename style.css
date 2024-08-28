@@ -1,15 +1,13 @@
 html, body { 
     font-family: monospace;
+    font-size: 20px;
   } 
 
-.center{
-    align-content: center;
-    height: 100%; 
-    margin: 0; 
-    display: flex; 
-    align-items: center; 
-    justify-content: center;
-}
+    .center {
+        margin: 0 auto; /* Centers the block horizontally */
+        width: 50%; /* Adjust the width as needed */
+        text-align: center; /* Centers the text inside */
+    }
 
 .container{
     border: 1px solid skyblue;
