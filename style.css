@@ -1,3 +1,14 @@
+body{
+    align-items: center;
+}
+
 .container{
-    
+    border: 1px solid black;
+    height: 5cm;
+    width: auto;
+    font-size: 50px;
+    align-items: center;
+    background: skyblue;
+    color: antiquewhite;
+    text-align: center;
 }
