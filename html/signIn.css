@@ -1,0 +1,16 @@
+body{
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background: ghostwhite;
+}
+
+.container2{
+    border: 1px solid skyblue;
+    height: 2cm;
+    width: auto;
+    font-size: 50px;
+    align-items: center;
+    background: skyblue;
+    color: ghostwhite;
+    text-align: center;
+}
