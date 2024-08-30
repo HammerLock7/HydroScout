@@ -1,6 +1,6 @@
 html, body { 
     font-family: monospace, Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     background: ghostwhite;
 } 
 
@@ -14,38 +14,29 @@ html, body {
     align-items: center;
     justify-content: center;
     text-align: center; 
-    margin-bottom: 10px;
+    margin-bottom: 0.63rem;
+    font-size: 1.25rem;
 }
 
 .container{
     border: 1px solid skyblue;
     height: 5cm;
     width: auto;
-    font-size: 150px;
+    font-size: 9.35rem;
     align-items: center;
     background: skyblue;
     color: ghostwhite;
     text-align: center;
 }
 
-#floatingPassword{
-    width: 80%;
-    max-width: 600px;
-    height: 25px;
-    font: 16px;
-    padding: 20px;
-    box-sizing: border-box;
-    margin-bottom: 15px;
-}
-
 .large-input{
-    width: 100%; 
-    max-width: 700px;
-    height: 25px;
-    font-size: 16px; 
-    padding: 20px;
+    width: 80%; 
+    max-width: 600px;
+    height: 1.5rem;
+    font-size: 1rem; 
+    padding: 1.25rem;
     box-sizing: border-box;
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
 }
 
 .button{
@@ -53,19 +44,19 @@ html, body {
     border-radius: 20px;
     box-sizing: border-box;
     height: 1cm;
-    width: 8cm;
-    font-size: 25px;
+    width: 80%;
+    font-size: 1.5rem;
     background: rgb(189, 19, 87);
-    padding: 15px;
+    padding: 1rem;
     color: whitesmoke;
     cursor: pointer;
+    margin-left: 3rem;
 
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
-
 
 .signIn{
     border: 1px solid white;
@@ -75,7 +66,7 @@ html, body {
     color: black;
     cursor: pointer;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .guest{
@@ -86,5 +77,5 @@ html, body {
     color: rgb(6, 97, 194);
     cursor: pointer;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
