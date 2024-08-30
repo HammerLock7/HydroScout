@@ -14,3 +14,21 @@ body{
     color: ghostwhite;
     text-align: center;
 }
+
+#btn{
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 1cm;
+    width: 8cm;
+    font-size: 25px;
+    background: rgb(189, 19, 87);
+    padding: 15px;
+    color: whitesmoke;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

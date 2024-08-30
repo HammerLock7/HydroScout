@@ -28,22 +28,24 @@ html, body {
     text-align: center;
 }
 
-.large-input{
-    width: 100%; 
-    max-width: 1000px;
-    height: 30px;
-    font-size: 16px; 
+#floatingPassword{
+    width: 80%;
+    max-width: 600px;
+    height: 25px;
+    font: 16px;
     padding: 20px;
     box-sizing: border-box;
+    margin-bottom: 15px;
 }
 
-input.form-control {
-    width: 100%;
-    max-width: 1000px;
-    height: 30px;
+.large-input{
+    width: 100%; 
+    max-width: 700px;
+    height: 25px;
     font-size: 16px; 
     padding: 20px;
     box-sizing: border-box;
+    margin-bottom: 15px;
 }
 
 .button{
@@ -64,12 +66,24 @@ input.form-control {
     text-align: center;
 }
 
+
 .signIn{
     border: 1px solid white;
     height: 1cm;
     width: 3cm;
     background: ghostwhite;
     color: black;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.guest{
+    border: 1px solid white;
+    height: 1cm;
+    width: 3cm;
+    background: ghostwhite;
+    color: rgb(6, 97, 194);
     cursor: pointer;
     font-weight: bolder;
     font-size: 20px;
