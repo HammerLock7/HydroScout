@@ -10,37 +10,40 @@
 </head>
 <body>
     <div class="container2">HydroScout</div>
-    <div class="center">
-        <p class="dim">Sign up to find nearest water sources near you
-            <br>
-            and to ensure the safety of the water for you 
-            <br>
-            and your loved ones
-        </p>
-    </div>
-    <div class="center">
-        <form action="" method="post">
-            <label for="floatingInput"></label>
-            <input type="text" class="large-input" id="floatingInput" placeholder="email address" required>
+    <div class="border  center">
+        <div class="center">
+            <span class="heading">HydroScout</span>
+            <p class="dim">Sign up to find nearest water sources near you
+                <br>
+                and to ensure the safety of the water for you 
+                <br>
+                and your loved ones
+            </p>
+        </div>
+        <div class="center">
+            <form action="" method="post">
+                <label for="floatingInput"></label>
+                <input type="text" class="large-input" id="floatingInput" placeholder="email address" required>
 
-            <label for="name"></label>
-            <input type="text" class="large-input" id="name" placeholder="full name" required>
+                <label for="name"></label>
+                <input type="text" class="large-input" id="name" placeholder="full name" required>
 
-            <label for="username"></label>
-            <input type="text" class="large-input" id="username" placeholder="username" 
+                <label for="username"></label>
+                <input type="text" class="large-input" id="username" placeholder="username" 
                     minlength="5" maxlength="15"
                     pattern="^(?=.*[a-zA-Z])(?=.*[a-zA-Z0-9_-])[a-zA-Z0-9_-]{5,15}$"
                     title="Username must be 5-15 characters long and can only contain letters, numbers, underscores (_), and hyphens (-)."
                     required>
 
-            <label for="floatingPassword"></label>
-            <input type="password" class="form-control  large-input" id="floatingPassword" placeholder="password"
+                <label for="floatingPassword"></label>
+                <input type="password" class="form-control  large-input" id="floatingPassword" placeholder="password"
                     minlength="8" maxlength="20"
                     pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}"
                     title="Must contain at least one number, one uppercase letter, one lowercase letter, one special character, and be between 8 and 20 characters long."
                     required>
-            <button type="submit" class="button" id="btn">Sign UP</button>
-        </form>
+                <button type="submit" class="button" id="btn">Sign UP</button>
+            </form>
+        </div>
     </div>
 </body>
 </html>
