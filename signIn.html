@@ -31,10 +31,9 @@
                 <label for="username"></label>
                 <input type="text" class="large-input" id="username" placeholder="username" 
                     minlength="5" maxlength="15"
-                    pattern="^(?=.*[a-zA-Z])(?=.*[a-zA-Z0-9_-])[a-zA-Z0-9_-]{5,15}$"
-                    title="Username must be 5-15 characters long and can only contain letters, numbers, underscores (_), and hyphens (-)."
+                    pattern="^(?=^[a-zA-Z0-9_-]{5,15}$)(?!.*[^a-zA-Z0-9_-])(?!.*[-_]{2})(?!.*[0-9]{4})[a-zA-Z0-9_-]*$"
+                    title="Username must be 5-15 characters long, can contain only letters, a maximum of 3 digits, and a maximum of 1 special character (_ or -)."
                     required>
-
                 <label for="floatingPassword"></label>
                 <input type="password" class="form-control  large-input" id="floatingPassword" placeholder="password"
                     minlength="8" maxlength="20"
