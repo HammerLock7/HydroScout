@@ -2,7 +2,9 @@ html, body {
     font-family: monospace, Arial, Helvetica, sans-serif;
     font-size: 16px;
     background: ghostwhite;
-} 
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
 
 .dim{
     color: gray;
@@ -53,7 +55,7 @@ html, body {
 }
 
 .signIn{
-    border: 1px solid white;
+    border: 1px solid ghostwhite;
     height: 1cm;
     width: 3cm;
     background: ghostwhite;
@@ -64,7 +66,7 @@ html, body {
 }
 
 .guest{
-    border: 1px solid white;
+    border: 1px solid ghostwhite;
     height: 1cm;
     width: 3cm;
     background: ghostwhite;
@@ -72,4 +74,5 @@ html, body {
     cursor: pointer;
     font-weight: bolder;
     font-size: 1.25rem;
+    margin-left: 80rem;
 }
