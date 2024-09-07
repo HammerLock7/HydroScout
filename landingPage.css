@@ -85,3 +85,7 @@ html, body {
     font-size: 1.25rem;
     margin-left: 80rem;
 }
+
+#formHeader{
+    margin-bottom: 3.5rem;
+}
