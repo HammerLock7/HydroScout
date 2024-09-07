@@ -1,7 +1,26 @@
-#icons{
-    flex-direction: row;
+hr{
+    color: rgb(249, 244, 244);
+}
+.fa-solid.fa-home{
+    margin-right: 20rem;
+    margin-left: 10rem;
+    font-size: 1.5rem;
+    color:  rgb(53, 168, 213);
 }
 
-.fas.fa-home{
-    margin-right: 5rem;
+.fa-solid.fa-map-location-dot{
+    margin-right: 10rem;
+    font-size: 1.5rem;
+    color: rgb(53, 168, 213);
+}
+
+.fa-solid.fa-magnifying-glass{
+    margin-right: 35rem;
+    font-size: 1.5rem;
+    color:  rgb(53, 168, 213);
+}
+
+.fa-regular.fa-circle-user{
+    font-size: 1.5rem;
+    color:  rgb(53, 168, 213);
 }
